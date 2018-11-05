@@ -12,6 +12,10 @@
 		CCDDBF1A218DC3F700374564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDDBF18218DC3F700374564 /* Main.storyboard */; };
 		CCDDBF1C218DC3FB00374564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDDBF1B218DC3FB00374564 /* Assets.xcassets */; };
 		CCDDBF1F218DC3FB00374564 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDDBF1D218DC3FB00374564 /* LaunchScreen.storyboard */; };
+		CCDDBF2D218DDBB800374564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDDBF2C218DDBB800374564 /* Assets.xcassets */; };
+		CCDDBF34218DDC2A00374564 /* festisite_maker.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDDBF31218DDC2A00374564 /* festisite_maker.png */; };
+		CCDDBF35218DDC2A00374564 /* coollogo_com-18014310.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDDBF32218DDC2A00374564 /* coollogo_com-18014310.png */; };
+		CCDDBF36218DDC2A00374564 /* coollogo_com-4293558.png in Resources */ = {isa = PBXBuildFile; fileRef = CCDDBF33218DDC2A00374564 /* coollogo_com-4293558.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		CCDDBF1B218DC3FB00374564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCDDBF1E218DC3FB00374564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCDDBF20218DC3FB00374564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDDBF2C218DDBB800374564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCDDBF31218DDC2A00374564 /* festisite_maker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = festisite_maker.png; sourceTree = "<group>"; };
+		CCDDBF32218DDC2A00374564 /* coollogo_com-18014310.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coollogo_com-18014310.png"; sourceTree = "<group>"; };
+		CCDDBF33218DDC2A00374564 /* coollogo_com-4293558.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coollogo_com-4293558.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 		CCDDBF13218DC3F700374564 /* game */ = {
 			isa = PBXGroup;
 			children = (
+				CCDDBF30218DDC2A00374564 /* gazou */,
+				CCDDBF2C218DDBB800374564 /* Assets.xcassets */,
 				CCDDBF14218DC3F700374564 /* AppDelegate.swift */,
 				CCDDBF16218DC3F700374564 /* ViewController.swift */,
 				CCDDBF18218DC3F700374564 /* Main.storyboard */,
@@ -62,6 +72,16 @@
 				CCDDBF20218DC3FB00374564 /* Info.plist */,
 			);
 			path = game;
+			sourceTree = "<group>";
+		};
+		CCDDBF30218DDC2A00374564 /* gazou */ = {
+			isa = PBXGroup;
+			children = (
+				CCDDBF31218DDC2A00374564 /* festisite_maker.png */,
+				CCDDBF32218DDC2A00374564 /* coollogo_com-18014310.png */,
+				CCDDBF33218DDC2A00374564 /* coollogo_com-4293558.png */,
+			);
+			path = gazou;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +142,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCDDBF36218DDC2A00374564 /* coollogo_com-4293558.png in Resources */,
 				CCDDBF1F218DC3FB00374564 /* LaunchScreen.storyboard in Resources */,
+				CCDDBF34218DDC2A00374564 /* festisite_maker.png in Resources */,
 				CCDDBF1C218DC3FB00374564 /* Assets.xcassets in Resources */,
+				CCDDBF2D218DDBB800374564 /* Assets.xcassets in Resources */,
 				CCDDBF1A218DC3F700374564 /* Main.storyboard in Resources */,
+				CCDDBF35218DDC2A00374564 /* coollogo_com-18014310.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
